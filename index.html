@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stock Object</title>
+</head>
+<body>
+    
+
+    
+    <form>
+        <input id="ticker" type="text" placeholder="Stock Ticker" required>
+        <input id="name" type="text" placeholder="Name" required>
+        <input id="price" type="number" placeholder="Price" required>
+        <input id="change" type="number" placeholder="Change" required>
+        <input id="marketCap" type="number" placeholder="Market Cap" required>
+        <input id="submit" type="submit" value="Submit" onclick="stocks.stock(document.getElementById('ticker').value,document.getElementById('name').value, document.getElementById('price').value, document.getElementById('change').value, document.getElementById('marketCap').value)"/>
+    </form>
+    
+
+    
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
